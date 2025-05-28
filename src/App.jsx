@@ -1,10 +1,9 @@
-import PostList from "./components/PostList";
-import PostForm from "./components/PostForm";
+import PostList from "./components/PostList"
+import PostForm from "./components/PostForm"
 import { usePostsStore } from "./store/postsStore"
 
 function App() {
-  const { loading } = usePostsStore();
-  const holaMundo = "hola mundo"
+  const { loading } = usePostsStore()
 
   return (
     <div className="app">
@@ -13,11 +12,11 @@ function App() {
       </header>
       <main>
         <PostForm />
-        {loading && <div className="loading-indicator">Procesando...</div>}
+          {loading && <div className="loading-indicator">Procesando...</div>}
         <PostList />
       </main>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

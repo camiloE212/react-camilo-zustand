@@ -26,5 +26,8 @@
     "globals": "^16.0.0",
     "standard": "^17.1.2",
     "vite": "^6.3.5"
+  },
+  "eslintConfig": {
+    "config": "standard"
   }
 }
