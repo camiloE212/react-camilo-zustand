@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="app">
       <header>
-        <h1>gestor</h1>
+        <h1>Gestor camilo espinosa</h1>
       </header>
       <main>
         <PostForm />
