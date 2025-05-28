@@ -1,9 +1,10 @@
-import PostList from './components/PostList';
-import PostForm from './components/PostForm';
-import { usePostsStore } from './store/postsStore';
+import PostList from "./components/PostList";
+import PostForm from "./components/PostForm";
+import { usePostsStore } from "./store/postsStore"
 
 function App() {
   const { loading } = usePostsStore();
+  const holaMundo = "hola mundo"
 
   return (
     <div className="app">
